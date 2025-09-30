@@ -1,0 +1,72 @@
+:root {
+  --bg: #fdfdfd;
+  --fg: #333;
+  --brand: #ff9966;
+  --brand-contrast: #fff;
+  --font-sans: Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background: var(--brand);
+  color: var(--brand-contrast);
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: var(--fg);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: black;
+}
+
+h2 {
+  color: #cc6600;
+}
+
+/* Pet cards */
+.pet-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px auto;
+  width: 250px;
+  text-align: center;
+  background: #fff8f0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.pet-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.pet-card:hover {
+  transform: scale(1.05);
+}
+
+/* Table styling */
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid #999;
+  padding: 8px;
+}
+th {
+  background: var(--brand);
+  color: var(--brand-contrast);
+}
