@@ -49,3 +49,6 @@ docker build -t pawsorg .
 docker tag pawsorg your-dockerhub-username/pawsorg:latest
 docker push your-dockerhub-username/pawsorg:latest
 
+Screenshots
+<img width="1910" height="1035" alt="image" src="https://github.com/user-attachments/assets/69eb2337-fcba-4192-a83d-fa6f7e4e603a" />
+
